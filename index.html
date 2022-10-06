@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OREADER_来自OLD HELPS的RSS阅读器</title>
+<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"  >
+	<link rel="shortcut icon" href="img/logo.png" type="image/png">
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+	
+</head>
+<body>
+	
+	<nav class="oh-nav navbar navbar-expand-lg  navbar-dark" id="nav" >
+		<!-- Brand -->
+		<a class="navbar-brand" href="https://oldhelps.github.io/oreader">OREADER</a>
+	   
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	   
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav">
+			  <li class="nav-item">
+			  <a class="nav-link" href="https://oldhelps.github.io">OLD HELPS</a>
+			</li>
+			<li class="nav-item">
+				<a  href="https://oldhelps.github.io/oreader" class="nav-link">OREADER</a>
+			</li>
+			<li class="nav-item">
+				<a  href="https://oldhelps.github.io/ONav" class="nav-link">ONav</a>
+			</li>
+
+		  </ul>
+			<form class="form-inline serch" role="search">
+			<input class="form-control me-2" type="search" placeholder="搜索" aria-label="Search">
+			</form>
+		 <button class="btn btn-primary serch" type="submit"  id="bing">搜索</button>
+		</div>
+	  </nav>
+	  <div class="container-fluid">
+		<div class="col-sm-12 col-lg-6 col-xs-12">
+			<img src="img/logo.png" alt="">
+		</div>
+		<div class="col-sm-12 col-lg-12 col-xs-12">
+			<input type="text" id="feed" class="form-control" placeholder="feed地址" id="add"/>
+			<button class="btn btn-primary btn-block btn-lg" id="btn">订阅</button>
+		</div>
+		  <div id="table"></div>
+<div id="id-div-ajax-xml"></div>
+	 </div>
+</body>
+</html>
